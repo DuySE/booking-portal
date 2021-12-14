@@ -20,9 +20,8 @@ const FormLogin = () => {
         onFinish={onFinish}
         autoComplete="off"
         style={{
-          marginTop: 'auto',
-          minHeight: '100vh',
-          display: 'flex',
+          margin: 'auto',
+          maxWidth: '500px',
         }}
       >
         <Form.Item
