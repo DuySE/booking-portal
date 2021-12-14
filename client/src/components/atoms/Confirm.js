@@ -5,7 +5,6 @@ import {
   CloseCircleOutlined,
 } from '@ant-design/icons';
 import axios from 'axios';
-import FormReject from './FormReject';
 
 const Confirm = ({ data, action }) => {
   const icon = action === 'approved' ? <CheckCircleOutlined /> : <CloseCircleOutlined />;
