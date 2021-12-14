@@ -1,0 +1,33 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "A wellness booking portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "jQuery",
+    "Bootstrap",
+    "Express",
+    "NodeJS",
+    "MongoDB"
+  ],
+  "author": "Fullerton Healthcare Group",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4"
+  }
+}
